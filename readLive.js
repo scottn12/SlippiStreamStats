@@ -106,20 +106,24 @@ watcher.on('change', (path) => {
       if (playerIndex == gameEnd.lrasInitiatorIndex) {
         stats.wins++;
         stats.lastGame.wins = 1;
+        stats.lastGame.losses = 0;
       }
       else {
         stats.losses++;
         stats.lastGame.losses = 1;
+        stats.lastGame.wins = 0;
       }
     }
     else if (gameEnd.gameEndMethod === 2) {
       if (lastFrame.players[playerIndex].post.stocksRemaining > 0) {  // Normal End
         stats.wins++;
         stats.lastGame.wins = 1;
+        stats.lastGame.losses = 0;
       }
       else {
         stats.losses++;
         stats.lastGame.losses = 1;
+        stats.lastGame.wins = 0;
       }
     }
     else {  // Timeout
