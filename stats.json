@@ -11,15 +11,29 @@
   "totalConversions": 0,
   "successConversions": 0,
   "lastGame": {
-    "wins": 0,
-    "losses": 0,
-    "totalDamage": 0,
-    "apm": 0,
-    "openingsPerKill": 0,
-    "damagePerOpening": 0,
-    "totalNeutral": 0,
-    "neutralWins": 0,
-    "totalConversions": 0,
-    "successConversions": 0
+    "targetPlayer": {
+      "win": false,
+      "totalDamage": 0,
+      "apm": 0,
+      "openingsPerKill": 0,
+      "damagePerOpening": 0,
+      "totalNeutral": 0,
+      "neutralWins": 0,
+      "totalConversions": 0,
+      "successConversions": 0,
+      "stocksRemaining": 0
+    },
+    "opponent": {
+      "win": false,
+      "totalDamage": 0,
+      "apm": 0,
+      "openingsPerKill": 0,
+      "damagePerOpening": 0,
+      "totalNeutral": 0,
+      "neutralWins": 0,
+      "totalConversions": 0,
+      "successConversions": 0,
+      "stocksRemaining": 0
+    }
   }
 }
