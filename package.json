@@ -5,7 +5,7 @@
   "main": "readLive.js",
   "dependencies": {
     "chokidar": "^3.4.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "slp-parser-js": "^4.1.0"
   },
   "devDependencies": {},
